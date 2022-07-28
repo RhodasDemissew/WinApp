@@ -1,0 +1,11 @@
+C:\Users\Rhodas\source\repos\WinApp\WinApp\bin\Debug\WinApp.exe.config
+C:\Users\Rhodas\source\repos\WinApp\WinApp\bin\Debug\WinApp.exe
+C:\Users\Rhodas\source\repos\WinApp\WinApp\bin\Debug\WinApp.pdb
+C:\Users\Rhodas\source\repos\WinApp\WinApp\obj\Debug\WinApp.csproj.AssemblyReference.cache
+C:\Users\Rhodas\source\repos\WinApp\WinApp\obj\Debug\WinApp.csproj.SuggestedBindingRedirects.cache
+C:\Users\Rhodas\source\repos\WinApp\WinApp\obj\Debug\WinApp.Form1.resources
+C:\Users\Rhodas\source\repos\WinApp\WinApp\obj\Debug\WinApp.Properties.Resources.resources
+C:\Users\Rhodas\source\repos\WinApp\WinApp\obj\Debug\WinApp.csproj.GenerateResource.cache
+C:\Users\Rhodas\source\repos\WinApp\WinApp\obj\Debug\WinApp.csproj.CoreCompileInputs.cache
+C:\Users\Rhodas\source\repos\WinApp\WinApp\obj\Debug\WinApp.exe
+C:\Users\Rhodas\source\repos\WinApp\WinApp\obj\Debug\WinApp.pdb
