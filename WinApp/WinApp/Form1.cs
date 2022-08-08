@@ -13,10 +13,15 @@ namespace WinApp
 {
     public partial class Form1 : Form
     {
-        public Form1()
+        private string username;
+
+        public Form1( string user)
         {
             InitializeComponent();
+            label4.Text = user;
         }
+
+      
 
         private void btn_add_Click(object sender, EventArgs e)
         {
@@ -30,6 +35,7 @@ namespace WinApp
             add.objname = txt_objname.Text;
             add.count = Convert.ToInt32(txt_count.Text);
             add.price = Convert.ToDouble(txt_price.Text);
+            add.isAvailable = checkBox1.Checked;
             if (txt_num.Text.Length < 5)
 
             {
@@ -65,6 +71,33 @@ namespace WinApp
         private void btn_cancel_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void btnSub_Click(object sender, EventArgs e)
+        {
+            if (rdbtnsimple.Checked)
+                MessageBox.Show("Simple");
+            else if (rdbtnVariable.Checked)
+                MessageBox.Show("Variable");
+            else
+                Console.WriteLine(" ");
+
+            String message = " ";
+            foreach(var choice in chkList.CheckedItems)
+            {
+                message += choice.ToString()+" ";
+            }
+            MessageBox.Show(message);
+        }
+
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
