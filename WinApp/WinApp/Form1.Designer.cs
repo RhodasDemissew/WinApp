@@ -43,7 +43,6 @@
             this.txt_price = new System.Windows.Forms.TextBox();
             this.btn_add = new System.Windows.Forms.Button();
             this.btn_cancel = new System.Windows.Forms.Button();
-            this.dgv = new System.Windows.Forms.DataGridView();
             this.errorprovider = new System.Windows.Forms.ErrorProvider(this.components);
             this.errorProvider2 = new System.Windows.Forms.ErrorProvider(this.components);
             this.label1 = new System.Windows.Forms.Label();
@@ -59,7 +58,6 @@
             this.label4 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            ((System.ComponentModel.ISupportInitialize)(this.dgv)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.errorprovider)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider2)).BeginInit();
             this.groupBox1.SuspendLayout();
@@ -181,16 +179,6 @@
             this.btn_cancel.Text = "Cancel";
             this.btn_cancel.UseVisualStyleBackColor = true;
             this.btn_cancel.Click += new System.EventHandler(this.btn_cancel_Click);
-            // 
-            // dgv
-            // 
-            this.dgv.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgv.Location = new System.Drawing.Point(37, 348);
-            this.dgv.Name = "dgv";
-            this.dgv.RowHeadersWidth = 51;
-            this.dgv.RowTemplate.Height = 24;
-            this.dgv.Size = new System.Drawing.Size(835, 259);
-            this.dgv.TabIndex = 14;
             // 
             // errorprovider
             // 
@@ -335,7 +323,7 @@
             this.groupBox2.Size = new System.Drawing.Size(132, 67);
             this.groupBox2.TabIndex = 27;
             this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "groupBox2";
+            this.groupBox2.Text = "groupb";
             // 
             // Form1
             // 
@@ -349,7 +337,6 @@
             this.Controls.Add(this.checkBox1);
             this.Controls.Add(this.btnSub);
             this.Controls.Add(this.chkList);
-            this.Controls.Add(this.dgv);
             this.Controls.Add(this.btn_cancel);
             this.Controls.Add(this.btn_add);
             this.Controls.Add(this.txt_price);
@@ -364,10 +351,11 @@
             this.Controls.Add(this.lbl_invnum);
             this.Controls.Add(this.lbl_date);
             this.Controls.Add(this.lbl_num);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.dgv)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.errorprovider)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider2)).EndInit();
             this.groupBox1.ResumeLayout(false);
@@ -395,7 +383,6 @@
         private System.Windows.Forms.TextBox txt_price;
         private System.Windows.Forms.Button btn_add;
         private System.Windows.Forms.Button btn_cancel;
-        private System.Windows.Forms.DataGridView dgv;
         private System.Windows.Forms.ErrorProvider errorprovider;
         private System.Windows.Forms.ErrorProvider errorProvider2;
         private System.Windows.Forms.Button btnSub;

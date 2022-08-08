@@ -24,8 +24,9 @@ namespace WinApp
             if(username == "Rhodas" && password =="password")
             {
                 Form1 form1 = new Form1 (username);
+                MDI mDI = new MDI();
                 Hide();
-                form1.Show();
+                mDI.Show();
             }
             else
             {

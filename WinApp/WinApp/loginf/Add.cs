@@ -16,6 +16,13 @@ namespace WinApp.loginf
         public double price { get; set; }
         public bool isAvailable { get; set; }    
         public static List <Add> add = new List<Add> ();
+        public static Add findOne(string name)
+        {
+            return add.Find(i => i.objname == name);
+        }
+
+        
+
         public string save()
 
         {

@@ -15,7 +15,7 @@ namespace WinApp
     {
         private string username;
 
-        public Form1( string user)
+        public Form1( String user)
         {
             InitializeComponent();
             label4.Text = user;
@@ -61,8 +61,8 @@ namespace WinApp
             {
                 MessageBox.Show(add.save() + " has been Successfully Added!!!");
                 //Item.getAll();
-                dgv.DataSource = null;
-                dgv.DataSource = Add.get();
+               // dgv.DataSource = null;
+                //dgv.DataSource = Add.get();
             }
 
         }
